@@ -1,50 +1,59 @@
 /* type selectors */
-article, aside, figure, figcaption, footer, header, nav, section {
+
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section {
     display: block;
 }
 
 body {
-	font-family: Papyrus, fantasy;
+    font-family: Papyrus, fantasy;
     max-width: 800px;
 }
 
 aside {
-	margin: 40px 20px 10px 0;
-	width: 350px;
-	float: right;
+    margin: 40px 20px 10px 0;
+    width: 350px;
+    float: right;
     padding: 10px;
     border: 2px solid #000000;
 }
 
 aside img {
-    margin: auto;   
+    margin: auto;
 }
 
-section{
-	padding: 15px 25px;
+section {
+    padding: 15px 25px;
 }
 
 article {
-	padding: 0 10px 10px;
+    padding: 0 10px 10px;
 }
 
 .menu-item {
     font-size: 120%;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 img {
     display: block;
 }
 
-.hide {
+
+/*.hide {
 	display: none;
-}
+}*/
 
 ul {
-	padding-left: 45px;
+    padding-left: 45px;
 }
 
 li {
-	padding-bottom: .25em;
+    padding-bottom: .25em;
 }
