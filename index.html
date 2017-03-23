@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Moonflower's Coffee Shop</title>
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<main>
-    <header>
-        <h1>Moonflower's Coffee Shop</h1>
-    </header>
-	<aside class="hide" >
-		<img id="aside-image" src="" alt="">
-        <section id="featured" >
-            <h2>Featured this week</h2>
-            <div id="featured-items">
+    <main>
+        <header>
+            <h1>Moonflower's Coffee Shop</h1>
+        </header>
+        <aside class="hide">
+            <img id="aside-image" src="" alt="">
+            <section id="featured">
+                <h2>Featured this week</h2>
+                <div id="featured-items">
+                    <h3>Monthly Features</h3>
+                    <div id="month"></div>
+
+                    <h3>Weekly Specials</h3>
+                    <div id="week"></div>
+                </div>
+            </section>
+        </aside>
+        <section id="menu">
+            <h2>Menu</h2>
+            <h3 id="espresso">Espresso</h3>
+            <div>
+                <ul>
+                    <li><span class="menu-item">Cappuccino</span></li>
+                    <li><span class="menu-item">Latte</span></li>
+                    <li><span class="menu-item">Mocha</span></li>
+                    <li><span class="menu-item">Breve</span></li>
+                    <li><span class="menu-item">Americano</span></li>
+                </ul>
+            </div>
+            <h3 id="bakery">Bakery Goods</h3>
+            <div>
+                <ul>
+                    <li><span class="menu-item">Assorted Scones</span></li>
+                    <li><span class="menu-item">Assorted Muffins</span></li>
+                    <li><span class="menu-item">Brownies</span></li>
+                    <li><span class="menu-item">Chocolate Cake</span></li>
+                    <li><span class="menu-item">Strawberry Cream Cake</span></li>
+                </ul>
             </div>
         </section>
-	</aside>	
-	<section id="menu">
-		<h2>Menu</h2>
-		<h3 id="espresso">Espresso</h3>
-		<div>
-			<ul>
-	    		<li><span class="menu-item">Cappuccino</span></li>
-	    		<li><span class="menu-item">Latte</span></li>
-	    		<li><span class="menu-item">Mocha</span></li>
-	    		<li><span class="menu-item">Breve</span></li>
-	    		<li><span class="menu-item">Americano</span></li>
-	    	</ul> 
-		</div>
-		<h3 id="bakery">Bakery Goods</h3>
-		<div>
-			<ul>
-	    		<li><span class="menu-item">Assorted Scones</span></li>
-	    		<li><span class="menu-item">Assorted Muffins</span></li>
-	    		<li><span class="menu-item">Brownies</span></li>
-                <li><span class="menu-item">Chocolate Cake</span></li>
-                <li><span class="menu-item">Strawberry Cream Cake</span></li>
-	    	</ul>
-		</div>
-	</section>
-    
-</main> 
 
-<!-- javascript -->
-<script src="js/script.js"></script> 	
-   
+    </main>
+
+    <!-- javascript -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+
 </body>
+
 </html>
