@@ -1,0 +1,26 @@
+{
+  "features": [
+              {
+                "name" : "Hazelnut Cappuccino",
+                "image": "images/Cappuccino.jpg",
+                "description": "A warm, soothing cappuccino with a touch of hazelnut to warm you as the weather turns."
+              },
+              {
+                "name" : "Chocolate Cake",
+                "image" : "images/choc-cake.jpg",
+                "description" : "Our chocolate cake is rich, moist, and dark.  More chocolate to love."
+              }
+    ],
+    "specials" : [
+              {
+                "id" : "FLAV50",
+                "description" : "50% off flavor shots.",
+                "location" : "main,sister"
+              },
+              {
+                "id" : "BEAN10",
+                "description" : "10% off all 1lb bags of coffee beans.",
+                "location" : "main"
+              }
+      ]
+}

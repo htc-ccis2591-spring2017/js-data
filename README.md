@@ -9,14 +9,14 @@
 
 ## GitHub Repository
 https://github.com/htc-ccis2591/js-data/
- 
+
 You’ll want to begin each assignment by forking the repository and cloning it locally.  When you are done, you’ll push to GitHub and submit a pull request.
 
 ## Moonflower Specials & Features
 Add information to the aside to highlight the montly features and weekly specials.  
 
 ### Put the Data into JSON
-Use the information below to create a new JSON file to hold both the featured items for the month and the weekly specials. Call the file specials.json. Since the number of features & specials may change, you want to use arrays to hold the values for each.  Build two arrays in the file, one for the featured items, and a second array for the weekly specials. 
+Use the information below to create a new JSON file to hold both the featured items for the month and the weekly specials. Call the file specials.json. Since the number of features & specials may change, you want to use arrays to hold the values for each.  Build two arrays in the file, one for the featured items, and a second array for the weekly specials.
 
 #### Features
 Item 1:
@@ -24,7 +24,7 @@ Item 1:
 - name: Hazelnut Cappuccino
 - image: images/cappuccino.jpg
 - description: A warm, soothing cappuccino with a touch of hazelnut to warm you as the weather turns.
-        
+
 Item 2:
 - name: Chocolate Cake
 - image: images/choc-cake.jpg
