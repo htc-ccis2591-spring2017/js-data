@@ -1,5 +1,6 @@
 $(function () {
-    console.log("script.js loaded")
+    'use strict';
+    console.log("script.js loaded");
 
     const mainLocation = "Gridania Ave";
     const sisterLocation = "Limsa Lane";
