@@ -1,4 +1,5 @@
 $(function () {
+    console.log("script.js loaded")
 
     const mainLocation = "Gridania Ave";
     const sisterLocation = "Limsa Lane";
@@ -39,8 +40,7 @@ $(function () {
         html += "<ul>";
 
         $.each(featuredArray, function (index) {
-            //Get pet from array
-            console.log(featuredArray[index]);
+            //Get featured items from array
             feature = featuredArray[index];
             html += getFeatureHtml(feature);
         })
@@ -54,8 +54,7 @@ $(function () {
         html += "<ul>";
 
         $.each(specialsArray, function (index) {
-            //Get pet from array
-            console.log(specialsArray[index]);
+            //Get specials from array
             special = specialsArray[index];
             html += getSpecialHtml(special);
         })
@@ -66,7 +65,6 @@ $(function () {
 
     // Get the JSON data from the file and display
     $.getJSON("data/specials.json", function (data) {
-        console.log(data);
         displayFeature("#featured-items", data.featured);
         displaySpecials("#featured-items", data.specials);
     });
