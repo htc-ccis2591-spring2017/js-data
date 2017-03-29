@@ -9,14 +9,13 @@ $( document ).ready(function() {
         html += "<li>" + features.name + features.description + "</li>";
         return html;
     }
-    
 
-    // Build <ul> for all pets in an array
+    // Build <ul> for all specials in an array
     // Target is used for where to insert 
     //    the data on the page
     displayFood = function (target, foodArray) {
         html = "";
-        html += "<ul>";
+        html += "<ul><h1>Monthly Specials<h1>";
 
         $.each(foodArray, function (index) {
             //Get pet from array
@@ -33,18 +32,33 @@ $( document ).ready(function() {
     //SPECIALS
     
     getFeaturedHtmlSpecials = function (specials) {
+        
+                //location logic
+    let streetLocation = "";
+    if (specials.location ==="main,sister"){
+        streetLocation = "Gridania Ave - Limsa Lane";
+    }
+    
+    else if (specials.location === "main"){
+        streetLocation = "Gridania Ave";
+    }
+    
+    else if (specials.location === "sister"){
+        streetLocation = "Limsa Lane";
+    };
+        
         html = "";
-        html += "<li>" + specials.id + specials.description + specials.location + "</li>";
+        html += "<li>" + "Use Code: " + specials.id + "<br>" + specials.description + "<br>Location: " + streetLocation + "</li>";
         return html;
     }
     
     
         displaySpecials = function (target, foodArray) {
         html = "";
-        html += "<ul>";
+        html += "<ul><h1>Monthly Specials<h1>";
 
         $.each(foodArray, function (index) {
-            //Get pet from array
+            //Get food from array
             console.log(foodArray[index]);
             specials = foodArray[index];
             html += getFeaturedHtmlSpecials(specials);
