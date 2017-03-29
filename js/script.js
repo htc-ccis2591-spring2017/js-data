@@ -15,7 +15,7 @@ $( document ).ready(function() {
     //    the data on the page
     displayFood = function (target, foodArray) {
         html = "";
-        html += "<ul><h1>Monthly Specials<h1>";
+        html += "<ul><h1>Featured Items<h1>";
 
         $.each(foodArray, function (index) {
             //Get pet from array
@@ -55,7 +55,7 @@ $( document ).ready(function() {
     
         displaySpecials = function (target, foodArray) {
         html = "";
-        html += "<ul><h1>Monthly Specials<h1>";
+        html += "<ul><h1>Weekly Specials<h1>";
 
         $.each(foodArray, function (index) {
             //Get food from array
